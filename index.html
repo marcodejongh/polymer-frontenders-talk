@@ -22,23 +22,17 @@ Software engineer
 
 ]
 .right-column-large[
-![alt text](img/gfk_logo.png "Logo Title Text 1")
+![alt text](img/gfk_logo.jpg "Logo Title Text 1")
 
-Business Applications
 ]
+
 ---
 name: inverse
 layout: true
 class: center, middle, inverse
 ---
 # Polymer the future of html?
-
----
-name: inverse
-layout: true
-class: center, middle, inverse
----
-# What is it and why should I be using it?
+## What is it and why should I be using it?
 
 ---
 layout: false
@@ -46,16 +40,16 @@ layout: false
   ## What is it?
 ]
 .right-column[
-  A framework that enables developers to use the web component api's
+  A framework that enables developers to use the web component
 
   *"Everything is an element"*
 
 
 3 Layers:
 
-- Web components: If browser support is missing loads polyfills.
+- Web components: If browser support is missing (parts) loads polyfills.
 
-- Polymer library: Declarative syntax to make defining custom elements easier.
+- Polymer library: Declarative syntax to make defining custom elements easier. Adds a lot of sugar.
 
 - Elements: There are 2 default sets of elements developers can use.
 ]
@@ -178,6 +172,21 @@ Using Polymer:
 ]
 
 ---
+.left-column[
+  ## What is it?
+  ## Why use it?
+]
+.right-column[
+  Gap between frontend & backend developers
+
+  .medium-img[
+    ![alt text](img/Software-Development-Continuum-2.png)
+  ]
+
+  Next to impossible to find a html expert who writes linux device drivers
+]
+
+---
 template: inverse
 
 ## How does it work, then?
@@ -220,16 +229,61 @@ The img-slider element
 </polymer-element>
 ```
 ]
+--
+.right-column[
+- Boilerplate in 1 location
+- Styling that matters to a element is contained within the element
+- Element styling can not interfere with other elements because of the shadow DOM
+]
+
+---
+name: how
+
+.left-column[
+  ## How does it work?
+  ### - img-slider
+  ### - polymer-element
+]
+.right-column[
+Automagically turns the template into shadow dom and registers the custom element.
+
+And lots of other sugar:
+
+- Adds support for two-way binding
+- Automatic node finding
+- Adds support for Web Animations
+]
+
+---
+name: More awesome
+class: inverse
+
+# But here comes the best part
+
+--
+Elements are universal and there is already a community building ready to use **Awesome** elements
+
+- https://www.polymer-project.org/components/core-elements/demo.html
+- https://www.polymer-project.org/components/paper-elements/demo.html
+- http://customelements.io/
 
 ---
 name: last-page
-template: inverse
+class: inverse
 
-## Questions?
-
-Slideshow created using [remark](http://github.com/gnab/remark).
+.left-column-large[
+# Questions?
 
 The source code of the slideshow is on github.
+]
+.right-column-large[
+# More bleeding edge?
+![alt text](img/gfk_logo.jpg "Logo Title Text 1")
+.floating-image[.smaller-img[![alt text](img/we-are-hiring.png "Logo Title Text 1")]]
+
+]
+
+
     </textarea>
 
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">

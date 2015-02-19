@@ -66,7 +66,7 @@ code {
 
 /* Slide-specific styling */
 #slide-inverse .footnote {
-  bottom: 12px;
+  bottom: 2px;
   left: 20px;
 }
 #slide-how .slides {
@@ -109,7 +109,6 @@ code {
 /* Two-column layout */
 .right-column-large {
   width: 50%;
-  padding-top: 1em;
   float: right;
 }
 
@@ -131,4 +130,20 @@ code {
 .inline-link-image img {
   height:1em;
   width:auto;
+}
+
+.smaller-img img {
+  width: 300px;
+  height: auto;
+}
+
+.medium-img img {
+  width: 500px;
+  height: auto;
+}
+
+.floating-image img {
+    top: 400px;
+    position: absolute;
+    right: 100px;
 }
